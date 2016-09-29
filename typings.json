@@ -1,0 +1,8 @@
+{
+  "name": "angular2-webpack-starter",
+  "dependencies": {},
+  "globalDependencies": {
+    "greensock": "registry:dt/greensock#1.15.1+20160928135235",
+    "moment": "registry:dt/moment#2.11.1+20160829143156"
+  }
+}

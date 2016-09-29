@@ -1,0 +1,46 @@
+html, body{
+  height: 100%;
+  font-family: Arial, Helvetica, sans-serif
+}
+
+span.active {
+  background-color: gray;
+}
+
+.border{
+  color: white;
+  background: rgba(0, 0, 0, 0.8); /* For browsers that do not support gradients */
+}
+
+.sidebar{
+  height: 100vh;
+  padding-left: 0;
+  padding-right: 0;
+  background: -webkit-linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6)); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6)); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6)); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6)); /* Standard syntax */
+}
+
+.sidebar a.active div{
+  background: rgba(255,255,255,0.6);
+}
+
+.header a{
+  color: rgba(200,200,200,0.6);
+}
+
+.main-content{
+  padding: 15px;
+}
+
+.logo{
+  max-width: 100%;
+  margin-left: 0;
+}
+
+.logo img{
+  max-height: 100px;
+  width: auto;
+  margin-top: 10px;
+}

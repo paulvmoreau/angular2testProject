@@ -1,0 +1,63 @@
+<div class='container-fluid'>
+  <div class="row header border">
+    <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+      (╯°□°）╯ ︵ ┻━┻
+    </div>
+    <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+      <a [routerLink]=" ['./'] ">
+        Index
+      </a>
+    </div>
+    <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+      <a [routerLink]=" ['./home'] ">
+        Home
+      </a>
+    </div>
+    <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+      <a [routerLink]=" ['./detail'] ">
+        Detail
+      </a>
+    </div>
+    <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+      <a [routerLink]=" ['./about'] ">
+        About
+      </a>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 sidebar border">
+      <div class="row logo">
+        <div class="col-xs col-sm col-md col-lg">
+          <img src="http://img14.deviantart.net/c737/i/2013/011/9/3/atari_logo_05_by_dhlarson-d5qqh2s.png" alt="" />
+        </div>
+      </div>
+      <a [routerLink]=" ['./home'] " routerLinkActive="active">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+          Home
+        </div>
+      </a>
+      <a [routerLink]=" ['./detail'] " routerLinkActive="active">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+          Detail
+        </div>
+      </a>
+      <a [routerLink]=" ['./about'] " routerLinkActive="active">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+          About
+        </div>
+      </a>
+    </div>
+    <div class="col-xs-9 col-sm-9 col-md-9 col-lg-9 main-content">
+      <main>
+        <router-outlet></router-outlet>
+      </main>
+
+      <pre class="app-state">this.appState.state = {{ appState.state | json }}</pre>
+
+      <footer>
+        <span>WebPack Angular 2 Starter by <a [href]="url">@AngularClass</a></span><br>
+        <span>Shamelessly Moded By Paul Moreau</span>
+      </footer>
+    </div>
+  </div>
+</div>

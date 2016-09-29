@@ -1,0 +1,8 @@
+{
+  "resolution": "main",
+  "tree": {
+    "src": "https://raw.githubusercontent.com/DefinitelyTyped/DefinitelyTyped/750936896bacf9027eccc80228822f4f131a77a5/greensock/greensock.d.ts",
+    "raw": "registry:dt/greensock#1.15.1+20160928135235",
+    "typings": "https://raw.githubusercontent.com/DefinitelyTyped/DefinitelyTyped/750936896bacf9027eccc80228822f4f131a77a5/greensock/greensock.d.ts"
+  }
+}
